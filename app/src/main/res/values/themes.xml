@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CryptoCurrencySampleApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/darkBlue</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/darkBlue</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/app
+        </item>
+        <item name="android:statusBarColor">@color/darkBlue</item>
+    </style>
+</resources>

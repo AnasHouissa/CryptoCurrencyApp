@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CryptoCurrencySampleApp</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register_now"><u>Don\'t have an account? Register now.</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
